@@ -18,6 +18,23 @@ Python, TensorFlow, Keras, NumPy, Matplotlib, OpenCV, Scikit-learn
 1. Install dependencies
 pip install -r requirements.txt
 
+# Steps:
+<!-- 1. -->
+cd your folder path
+<!-- 2. -->
+py -3.10 -m venv tfenv
+<!-- 3. -->
+tfenv\Scripts\activate
+<!-- 4. -->
+python --version
+<!-- 5. -->
+Python 3.10.x
+<!-- 6. -->
+python -m pip install --upgrade pip
+<!-- 7. -->
+pip install tensorflow==2.15.0
+pip install opencv-python matplotlib scikit-learn numpy pandas
+
 2. Run program
 python medical_image_classification.py
 
